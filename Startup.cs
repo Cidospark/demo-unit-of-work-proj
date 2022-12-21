@@ -27,7 +27,7 @@ namespace UnitOfWork
         {
             services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllersWithViews();
-
+            services.AddMemoryCache();
             services.AddScoped<IUnitOfWork, UnitOfworkClass>();
         }
 
