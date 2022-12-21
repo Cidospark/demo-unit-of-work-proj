@@ -1329,7 +1329,8 @@
     "net5.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.17"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.17",
+      "Microsoft.Extensions.Caching.Memory >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -1387,6 +1388,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.17, )"
+          },
+          "Microsoft.Extensions.Caching.Memory": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           }
         },
         "imports": [
