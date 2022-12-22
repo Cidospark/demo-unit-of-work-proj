@@ -14,6 +14,7 @@
     <None Remove="Core\IConfiguration\" />
     <None Remove="Core\Repository\" />
     <None Remove="Microsoft.Extensions.Caching.Memory" />
+    <None Remove="Caching\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
@@ -30,5 +31,6 @@
     <Folder Include="Core\IRepository\" />
     <Folder Include="Core\IConfiguration\" />
     <Folder Include="Core\Repository\" />
+    <Folder Include="Caching\" />
   </ItemGroup>
 </Project>

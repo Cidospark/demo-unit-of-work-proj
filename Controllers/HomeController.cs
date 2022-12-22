@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using UnitOfWork.Caching;
 using UnitOfWork.Core.IConfiguration;
 using UnitOfWork.Models;
 
@@ -14,11 +15,13 @@ namespace UnitOfWork.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IUnitOfWork _unit;
+        private ICacheProvider _cacheProvider;
 
-        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)
+        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork, ICacheProvider cacheProvider)
         {
             _logger = logger;
             _unit = unitOfWork;
+            _cacheProvider = cacheProvider;
         }
 
         public IActionResult Index()
@@ -46,7 +49,9 @@ namespace UnitOfWork.Controllers
         public async Task<IActionResult> GetItem(Guid Id)
         {
 
-            var user = await _unit.Users.GetById(Id);
+            //var user = await _unit.Users.GetById(Id);
+            var users = await _cacheProvider.GetCachedResponse();
+            var user = users.FirstOrDefault(x => x.Id == Id);
             if (user == null)
                 return NotFound();
 

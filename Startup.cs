@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using UnitOfWork.Caching;
 using UnitOfWork.Core.IConfiguration;
 using UnitOfWork.Data;
 
@@ -29,6 +30,7 @@ namespace UnitOfWork
             services.AddControllersWithViews();
             services.AddMemoryCache();
             services.AddScoped<IUnitOfWork, UnitOfworkClass>();
+            services.AddScoped<ICacheProvider, CacheProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
