@@ -4,7 +4,6 @@
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/bin/Debug/net5.0/UnitOfWork.runtimeconfig.json
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/bin/Debug/net5.0/UnitOfWork.runtimeconfig.dev.json
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/bin/Debug/net5.0/UnitOfWork.dll
-/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/bin/Debug/net5.0/ref/UnitOfWork.dll
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/bin/Debug/net5.0/UnitOfWork.pdb
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/bin/Debug/net5.0/UnitOfWork.Views.dll
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/bin/Debug/net5.0/UnitOfWork.Views.pdb
@@ -50,7 +49,6 @@
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/UnitOfWork.RazorAssemblyInfo.cache
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/UnitOfWork.RazorAssemblyInfo.cs
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/staticwebassets/UnitOfWork.StaticWebAssets.Manifest.cache
-/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/staticwebassets/UnitOfWork.StaticWebAssets.xml
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/scopedcss/bundle/UnitOfWork.styles.css
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/UnitOfWork.TagHelpers.input.cache
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/UnitOfWork.TagHelpers.output.cache
@@ -70,3 +68,10 @@
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/ref/UnitOfWork.dll
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/UnitOfWork.pdb
 /Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/UnitOfWork.genruntimeconfig.cache
+/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/bin/Debug/net5.0/UnitOfWork
+/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/staticwebassets/UnitOfWork.StaticWebAssets.Pack.cache
+/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/staticwebassets/msbuild.UnitOfWork.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/staticwebassets/msbuild.build.UnitOfWork.props
+/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/staticwebassets/msbuild.buildMultiTargeting.UnitOfWork.props
+/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/staticwebassets/msbuild.buildTransitive.UnitOfWork.props
+/Users/macbook/Projects/Repos/2022/UnitOfWork/UnitOfWork/obj/Debug/net5.0/refint/UnitOfWork.dll
